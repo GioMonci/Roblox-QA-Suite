@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Roblox Full Test" parallel="false" thread-count="1">
+    <test verbose="2" preserve-order="true" name="C:\Users\alexm\IdeaProjects\Roblox-QA-Suite\src\main\java">
+        <classes>
+            <class name="org.example.RegisterUser">
+            </class>
+            <class name="org.example.Login">
+            </class>
+            <class name="org.example.TestSettingsInBrowser">
+            </class>
+            <class name="org.example.PurchaseItems">
+            </class>
+            <class name="org.example.CustomizeAvatar">
+            </class>
+            <class name="org.example.UpdateProfile">
+            </class>
+            <class name="org.example.SearchUser">
+            </class>
+            <class name="org.example.SearchForGames">
+            </class>
+            <class name="org.example.PickGameAndPlay">
+            </class>
+            <class name="org.example.TestSettingsInGame">
+            </class>
+            <class name="org.example.RateGame">
+            </class>
+            <class name="org.example.RobloxBlog">
+            </class>
+            <class name="org.example.Report">
+            </class>
+            <class name="org.example.JoinGroup">
+            </class>
+            <class name="org.example.Logout">
+            </class>
+        </classes>
+    </test>
+</suite>
