@@ -15,9 +15,9 @@ public class PurchaseItems {
         driver = new ChromeDriver();
         driver.get("https://www.roblox.com/home");
         driver.manage().window().maximize();
-        driver.findElement(By.id("login-username")).sendKeys("STestingCharacter9");
+        driver.findElement(By.id("login-username")).sendKeys("[UserName]");
         Thread.sleep(2000);
-        driver.findElement(By.id("login-password")).sendKeys("Softwaretestingclassproject2024");
+        driver.findElement(By.id("login-password")).sendKeys("[Password]");
         Thread.sleep(3000);
         driver.findElement(By.id("login-button")).click();
         Thread.sleep(11000);
