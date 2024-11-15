@@ -15,10 +15,10 @@ public class SearchUser {
         driver.manage().window().maximize();
         Thread.sleep(2000);
 
-        driver.findElement(By.id("login-username")).sendKeys("dissolvd");
+        driver.findElement(By.id("login-username")).sendKeys("[UserName]");
         Thread.sleep(2000);
 
-        driver.findElement(By.id("login-password")).sendKeys("cheesecat123");
+        driver.findElement(By.id("login-password")).sendKeys("[Password]");
         Thread.sleep(2000);
 
         driver.findElement(By.id("login-button")).click();
@@ -27,7 +27,7 @@ public class SearchUser {
     @Test
     void correctUsername() throws InterruptedException {
 
-        driver.findElement(By.id("navbar-search-input")).sendKeys("ANDRAGOGY");
+        driver.findElement(By.id("navbar-search-input")).sendKeys("[UserName]");
         Thread.sleep(2000);
 
         driver.findElement(By.xpath("//span[text() = 'in People']")).click();
