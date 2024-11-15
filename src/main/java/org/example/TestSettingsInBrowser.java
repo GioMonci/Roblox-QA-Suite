@@ -24,10 +24,10 @@ public class TestSettingsInBrowser {
         driver.get("https://www.roblox.com/home");
         driver.manage().window().maximize();
 
-        driver.findElement(By.id("login-username")).sendKeys("dissolvd");
+        driver.findElement(By.id("login-username")).sendKeys("[UserName]");
         Thread.sleep(2000);
 
-        driver.findElement(By.id("login-password")).sendKeys("cheesecat123");
+        driver.findElement(By.id("login-password")).sendKeys("[Password]");
         Thread.sleep(2000);
 
         driver.findElement(By.id("login-button")).click();
