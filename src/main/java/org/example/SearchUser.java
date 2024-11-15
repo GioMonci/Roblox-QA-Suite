@@ -37,7 +37,7 @@ public class SearchUser {
     @Test (priority = 1)
     void incorrectUsername() throws InterruptedException {
 
-        driver.findElement(By.id("navbar-search-input")).sendKeys("ANDRedp445AGOGY");
+        driver.findElement(By.id("navbar-search-input")).sendKeys("[RandomString]");
         Thread.sleep(2000);
 
         driver.findElement(By.xpath("//span[text() = 'in People']")).click();
