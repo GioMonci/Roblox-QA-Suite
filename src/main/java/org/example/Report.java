@@ -17,10 +17,10 @@ public class Report {
         driver.manage().window().maximize();
         Thread.sleep(3000);
 
-        driver.findElement(By.id("login-username")).sendKeys("dissolvd");
+        driver.findElement(By.id("login-username")).sendKeys("[UserName]");
         Thread.sleep(2500);
 
-        driver.findElement(By.id("login-password")).sendKeys("cheesecat123");
+        driver.findElement(By.id("login-password")).sendKeys("[Password]");
         Thread.sleep(3000);
 
         driver.findElement(By.id("login-button")).click();
@@ -29,7 +29,7 @@ public class Report {
     @Test
     void reportPlayer() throws InterruptedException {
 
-        driver.findElement(By.id("navbar-search-input")).sendKeys("STestingCharacter1");
+        driver.findElement(By.id("navbar-search-input")).sendKeys("[UserName]");
         Thread.sleep(2000);
 
         driver.findElement(By.xpath("//span[text() = 'in People']")).click();
