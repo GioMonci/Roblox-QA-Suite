@@ -12,9 +12,9 @@ public class JoinGroup {
         driver = new ChromeDriver();
         driver.get("https://www.roblox.com/home");
         driver.manage().window().maximize();
-        driver.findElement(By.id("login-username")).sendKeys("STestingCharacter2");
+        driver.findElement(By.id("login-username")).sendKeys("[UserName]");
         Thread.sleep(2500);
-        driver.findElement(By.id("login-password")).sendKeys("Softwaretestingclassproject2024");
+        driver.findElement(By.id("login-password")).sendKeys("[Password]");
         Thread.sleep(4000);
         driver.findElement(By.id("login-button")).click();
         Thread.sleep(11000);
