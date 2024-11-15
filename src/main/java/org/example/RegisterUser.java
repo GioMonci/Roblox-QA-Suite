@@ -85,7 +85,7 @@ public class RegisterUser {
         yearDropDown.selectByIndex(20);
         //Thread.sleep(2000);
         cdriver.findElement(By.id("signup-username")).clear();
-        cdriver.findElement(By.id("signup-username")).sendKeys("StestingCharacter1");
+        cdriver.findElement(By.id("signup-username")).sendKeys("[UserName]");
         cdriver.findElement(By.id("signup-password")).sendKeys("hello");
         WebElement show_password_button = cdriver.findElement(By.xpath("//*[@id=\"signup\"]/div/div/div/div[3]/div"));
         show_password_button.click();
@@ -122,9 +122,9 @@ public class RegisterUser {
         Thread.sleep(2000);
         //USERNAME and password
         cdriver.findElement(By.id("signup-username")).clear();
-        cdriver.findElement(By.id("signup-username")).sendKeys("STestingCharacter10");
+        cdriver.findElement(By.id("signup-username")).sendKeys("[UserName]");
         cdriver.findElement(By.id("signup-password")).clear();
-        cdriver.findElement(By.id("signup-password")).sendKeys("Softwaretestingclassproject2024");
+        cdriver.findElement(By.id("signup-password")).sendKeys("[Password]");
         Thread.sleep(2000);
         WebElement sign_up_button = cdriver.findElement(By.id("signup-button"));
         sign_up_button.click();
