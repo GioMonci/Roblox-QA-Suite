@@ -18,10 +18,10 @@ public class Login {
     @Test
     void correctCrendentials() throws InterruptedException {
 
-        driver.findElement(By.id("login-username")).sendKeys("dissolvd");
+        driver.findElement(By.id("login-username")).sendKeys("[UserName]");
         Thread.sleep(2000);
 
-        driver.findElement(By.id("login-password")).sendKeys("cheesecat123");
+        driver.findElement(By.id("login-password")).sendKeys("[Password]");
         Thread.sleep(3000);
 
         driver.findElement(By.id("login-button")).click();
@@ -60,7 +60,7 @@ public class Login {
         driver.findElement(By.id("login-username")).sendKeys("someonesusername");
         Thread.sleep(2000);
 
-        driver.findElement(By.id("login-password")).sendKeys("cheesecat123");
+        driver.findElement(By.id("login-password")).sendKeys("[Password]");
         Thread.sleep(2000);
 
         driver.findElement(By.id("login-button")).click();
@@ -73,7 +73,7 @@ public class Login {
         driver.navigate().refresh();
         Thread.sleep(2000);
 
-        driver.findElement(By.id("login-username")).sendKeys("dissolvd");
+        driver.findElement(By.id("login-username")).sendKeys("[UserName]");
         Thread.sleep(2000);
 
         driver.findElement(By.id("login-password")).sendKeys("arandompassword");
@@ -99,7 +99,7 @@ public class Login {
         driver.navigate().refresh();
         Thread.sleep(2000);
 
-        driver.findElement(By.id("login-username")).sendKeys("dissolvd");
+        driver.findElement(By.id("login-username")).sendKeys("[UserName]");
         Thread.sleep(2000);
 
         driver.findElement(By.id("login-button")).click();
@@ -112,7 +112,7 @@ public class Login {
         driver.navigate().refresh();
         Thread.sleep(2000);
 
-        driver.findElement(By.id("login-password")).sendKeys("cheesecat123");
+        driver.findElement(By.id("login-password")).sendKeys("[Password]");
         Thread.sleep(2000);
 
         driver.findElement(By.id("login-button")).click();
