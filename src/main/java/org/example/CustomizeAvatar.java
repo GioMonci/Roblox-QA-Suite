@@ -12,9 +12,9 @@ public class CustomizeAvatar {
         driver = new ChromeDriver();
         driver.get("https://www.roblox.com/home");
         driver.manage().window().maximize();
-        driver.findElement(By.id("login-username")).sendKeys("STestingCharacter1");
+        driver.findElement(By.id("login-username")).sendKeys("[UserName]");
         Thread.sleep(2200);
-        driver.findElement(By.id("login-password")).sendKeys("Softwaretestingclassproject2024");
+        driver.findElement(By.id("login-password")).sendKeys("[Password]");
         Thread.sleep(3500);
         driver.findElement(By.id("login-button")).click();
         Thread.sleep(11000);
